@@ -3,6 +3,10 @@
 # ln -s <target> <linkname>
 DOTFILES=$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)
 
+# nvim
+rm -rf $HOME/.config/nvim
+ln -s $DOTFILES/nvim $HOME/.config/nvim
+
 # tmux
 rm -rf $HOME/.tmux.conf
 ln -s $DOTFILES/tmux/tmux.conf $HOME/.tmux.conf

@@ -44,6 +44,7 @@ vim.opt.clipboard = 'unnamedplus' -- Use system clipboard
 
 vim.opt.confirm = true -- ask for confirmation instead of erroring
 
-vim.opt.undofile = true -- persistent undo
+--vim.opt.undofile = true -- persistent undo
 --vim.opt.backup = true -- automatically save a backup file
 --vim.opt.backupdir:remove('.') -- keep backups out of the current directory
+

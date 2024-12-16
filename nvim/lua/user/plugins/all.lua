@@ -1,4 +1,12 @@
 return {
+  -- VSCode theme.
+  {
+    'Mofiqul/vscode.nvim',
+    config = function()
+      vim.cmd('colorscheme vscode')
+    end,
+  },
+
   -- Commenting support.
   { 'tpope/vim-commentary' },
 
